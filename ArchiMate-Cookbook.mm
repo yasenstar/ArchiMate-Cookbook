@@ -1,9 +1,9 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="ArchiMate Cookbook" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1723229056967">
+<node TEXT="ArchiMate Cookbook&#xa;(Eero Hosiaisluoma)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1725113815830">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<font BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="0.77">
+<font SIZE="18" BOLD="true"/>
+<hook NAME="MapStyle" background="#f9f9f8" zoom="1.691">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -85,7 +85,7 @@
 </node>
 <node TEXT="1.2 References" ID="ID_1518779930" CREATED="1723553584974" MODIFIED="1723553588233"/>
 </node>
-<node TEXT="2. ArchiMate Diagram Types" POSITION="bottom_or_right" ID="ID_174497737" CREATED="1723553589714" MODIFIED="1723553608180">
+<node TEXT="2. ArchiMate Diagram Types" FOLDED="true" POSITION="bottom_or_right" ID="ID_174497737" CREATED="1723553589714" MODIFIED="1723553608180">
 <node TEXT="2.1 Motivation View (Goals View)" FOLDED="true" ID="ID_767662570" CREATED="1723553608185" MODIFIED="1723553630665">
 <node TEXT="Figure 02: Motivation View - Design Pattern" ID="ID_9937401" CREATED="1723553652258" MODIFIED="1723553663186"/>
 <node TEXT="2.1.1 Motivation View - Example" FOLDED="true" ID="ID_157389872" CREATED="1723553672535" MODIFIED="1723553689568">
