@@ -42,7 +42,7 @@
     <element xsi:type="archimate:Grouping" name="Outcomes" id="id-d65026a89c394ee5b5175e2459588c89"/>
     <element xsi:type="archimate:Grouping" name="Principles" id="id-e1c17ffaa2cb468b8576ac858c6f000f"/>
     <element xsi:type="archimate:Grouping" name="Constraints" id="id-fcb5409f62db4623a1a840e43bf0aa0f"/>
-    <element xsi:type="archimate:Grouping" name="Constraints (copy)" id="id-190e9f455cbd4871882354271955fd5a"/>
+    <element xsi:type="archimate:Grouping" name="Requirements" id="id-190e9f455cbd4871882354271955fd5a"/>
     <element xsi:type="archimate:Grouping" name="Core Elements" id="id-b4bd16227a624e74b78001e8fe4f0a7d"/>
   </folder>
   <folder name="Relations" id="id-99f7d1b1d2094637993d0a9dc8db23af" type="relations">
@@ -95,7 +95,7 @@
     <element xsi:type="archimate:AssociationRelationship" id="id-7ac90fbcdf26473c8f5faa6874e8cade" source="id-8e788c21d1d94349b32d7bf83024d6d6" target="id-b4bd16227a624e74b78001e8fe4f0a7d"/>
   </folder>
   <folder name="Views" id="id-013c415e9a58432fa401fdd31a8413e3" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="2-1_Motivation-Design-Pattern" id="id-660a45fdf512482db9e4ae9011d1610f">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-1_Figure02_Motivation-Design-Pattern" id="id-660a45fdf512482db9e4ae9011d1610f">
       <child xsi:type="archimate:DiagramObject" id="id-eff721b8a1e6418d928fb78ec4e440ee" textAlignment="1" archimateElement="id-b4a8cf1331474aedbe6e0e3de39d6c09">
         <bounds x="60" y="60" width="602" height="97"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cf23f0fbca3a457a9d2bbf4ec5bb7a04" source="id-eff721b8a1e6418d928fb78ec4e440ee" target="id-723ea07f1e8840699b70a4ec9bb291d5" archimateRelationship="id-dd88dae886924347a111bf653b7b789d"/>
