@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="2-2-2_SWOT" id="id-c897d8929a4345e08264ac82757f0f9c" version="5.0.0">
+  <folder name="Strategy" id="id-f3b82e0958d54b30b17601271de88b4f" type="strategy"/>
+  <folder name="Business" id="id-01ef9cb33105462cbebccdecee76bef2" type="business"/>
+  <folder name="Application" id="id-851292beba7d4a3d9a5b4986c07fcdcd" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-5bca16574a3f454db59e1fca8f6e7db6" type="technology"/>
+  <folder name="Motivation" id="id-2389c6297ed6460792bba73cde6490c6" type="motivation">
+    <element xsi:type="archimate:Assessment" name="Assessment" id="id-f5d1efe86e504350a839ae4227ec3117"/>
+    <element xsi:type="archimate:Assessment" name="SWOT Analysis" id="id-941fa43a129b4d509341c2420d28c9df"/>
+    <element xsi:type="archimate:Assessment" name="Internal Assessment" id="id-5df1ba47687f41ba910382dc59547122"/>
+    <element xsi:type="archimate:Assessment" name="External Assessment" id="id-26c0eb0688524a5ea66e24c35939a3fd"/>
+    <element xsi:type="archimate:Assessment" name="Strengths" id="id-01784a2e570c4c66a45e8aa87711a78e"/>
+    <element xsi:type="archimate:Assessment" name="Threathes" id="id-c7b52a5dc29247f19f16dd5515278527"/>
+    <element xsi:type="archimate:Assessment" name="Opportunities" id="id-dd9fd251d7de4ddeaacfcf0607213014"/>
+    <element xsi:type="archimate:Assessment" name="Weaknesses" id="id-e7da6d5596394379994f840971ffa683"/>
+    <element xsi:type="archimate:Assessment" name="Strength 1" id="id-ec3b5776993e4930976c0d2db8cf0be0"/>
+    <element xsi:type="archimate:Assessment" name="Strength 2" id="id-d9adcbdd9ee44f25821513070ce8d136"/>
+    <element xsi:type="archimate:Assessment" name="Weakness 1" id="id-ccf4804e64c54bd9baedc01c9524db2e"/>
+    <element xsi:type="archimate:Assessment" name="Weakness 2" id="id-c9860998e16b43638111abc666ce82f1"/>
+    <element xsi:type="archimate:Assessment" name="Opoortunity 1" id="id-f9e4d7047d044b599b723c9a6cf11019"/>
+    <element xsi:type="archimate:Assessment" name="Opportunity 2" id="id-76639552f79642dcba63698d90fba994"/>
+    <element xsi:type="archimate:Assessment" name="Threath 1" id="id-6542821b68d84706bf239a2004bbe4c1"/>
+    <element xsi:type="archimate:Assessment" name="Threath 2" id="id-89ac489941e24d4796c8dd0e5d1c82b7"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-7025b060a26149bea750ac1ee420c641" type="implementation_migration"/>
+  <folder name="Other" id="id-660d280c075d4fac84156b122c59013a" type="other"/>
+  <folder name="Relations" id="id-009a49b4e69b47a4b676d17cbc6cea11" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-4d37e6fff5274aebbc541c499d62fc79" source="id-f5d1efe86e504350a839ae4227ec3117" target="id-941fa43a129b4d509341c2420d28c9df"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-51a7e33c19fe44c6bea5e7f63694277c" source="id-01784a2e570c4c66a45e8aa87711a78e" target="id-ec3b5776993e4930976c0d2db8cf0be0"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-e58767bc24db42ac8b8cbeb00d96491b" source="id-01784a2e570c4c66a45e8aa87711a78e" target="id-d9adcbdd9ee44f25821513070ce8d136"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-026790038a344743a0a39950b2b708e9" source="id-e7da6d5596394379994f840971ffa683" target="id-c9860998e16b43638111abc666ce82f1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-797fc0d38ffb4369b271390da18402be" source="id-e7da6d5596394379994f840971ffa683" target="id-ccf4804e64c54bd9baedc01c9524db2e"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-c99c0193d3bf4b0d99483464594dc080" source="id-dd9fd251d7de4ddeaacfcf0607213014" target="id-f9e4d7047d044b599b723c9a6cf11019"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-8294e00f6b3f4f4a94233ccd6978a2ef" source="id-dd9fd251d7de4ddeaacfcf0607213014" target="id-76639552f79642dcba63698d90fba994"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-6b47f7202e414881a8b7f542cc1d8382" source="id-c7b52a5dc29247f19f16dd5515278527" target="id-6542821b68d84706bf239a2004bbe4c1"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-ea589ad987f940adb43bdaf0acc6b68d" source="id-c7b52a5dc29247f19f16dd5515278527" target="id-89ac489941e24d4796c8dd0e5d1c82b7"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-6e1bede78e69440386e1efa5a8bb127e" source="id-5df1ba47687f41ba910382dc59547122" target="id-01784a2e570c4c66a45e8aa87711a78e"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-7c55b06b28b54334b567cb55cc911bad" source="id-5df1ba47687f41ba910382dc59547122" target="id-e7da6d5596394379994f840971ffa683"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-59f4a6a9a8ed414cb02400f5bf6ba0af" source="id-26c0eb0688524a5ea66e24c35939a3fd" target="id-dd9fd251d7de4ddeaacfcf0607213014"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-f7ca67d6ac9a4f32b416d164c6a077e1" source="id-26c0eb0688524a5ea66e24c35939a3fd" target="id-c7b52a5dc29247f19f16dd5515278527"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-58d852add9d94d5d940929f196d73a1d" source="id-941fa43a129b4d509341c2420d28c9df" target="id-26c0eb0688524a5ea66e24c35939a3fd"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-aeee6c374a9044daa8d67f707a51e919" source="id-941fa43a129b4d509341c2420d28c9df" target="id-5df1ba47687f41ba910382dc59547122"/>
+  </folder>
+  <folder name="Views" id="id-067994f06f6541dca732701fbde949c0" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-2-2_Figure06_SWOT-Pattern" id="id-9dfc8053b4a142349c0b91820da2296d">
+      <child xsi:type="archimate:DiagramObject" id="id-33b850bb430a41338c2ead4f517f1a30" archimateElement="id-f5d1efe86e504350a839ae4227ec3117">
+        <bounds x="12" y="24" width="733" height="385"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-63a0d233e05143e9a3b13e454c036469" source="id-33b850bb430a41338c2ead4f517f1a30" target="id-93e6d1211a234fb9ab4ab33fe52a2102" archimateRelationship="id-4d37e6fff5274aebbc541c499d62fc79"/>
+        <child xsi:type="archimate:DiagramObject" id="id-93e6d1211a234fb9ab4ab33fe52a2102" targetConnections="id-63a0d233e05143e9a3b13e454c036469" archimateElement="id-941fa43a129b4d509341c2420d28c9df">
+          <bounds x="24" y="24" width="685" height="337"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c8009908e53c486194f5e564d16c90dc" source="id-93e6d1211a234fb9ab4ab33fe52a2102" target="id-f614e0b92d014581a084728031572f0a" archimateRelationship="id-58d852add9d94d5d940929f196d73a1d"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-248ca163cd3e4726872bd59a6b2e9376" source="id-93e6d1211a234fb9ab4ab33fe52a2102" target="id-ce304d3f1b684318a8868aa71dd2f4aa" archimateRelationship="id-aeee6c374a9044daa8d67f707a51e919"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f614e0b92d014581a084728031572f0a" targetConnections="id-c8009908e53c486194f5e564d16c90dc" archimateElement="id-26c0eb0688524a5ea66e24c35939a3fd">
+            <bounds x="24" y="180" width="625" height="145"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-3fe7a6cfa7fe4a97a512b0a7b4b916f1" source="id-f614e0b92d014581a084728031572f0a" target="id-41f30e5575714130a58d3e3f270f6eed" archimateRelationship="id-59f4a6a9a8ed414cb02400f5bf6ba0af"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-03847ef138454df3ba3f50a50a2f7faf" source="id-f614e0b92d014581a084728031572f0a" target="id-7b200fce4aee4691a3695aa7a7e4297d" archimateRelationship="id-f7ca67d6ac9a4f32b416d164c6a077e1"/>
+            <child xsi:type="archimate:DiagramObject" id="id-41f30e5575714130a58d3e3f270f6eed" targetConnections="id-3fe7a6cfa7fe4a97a512b0a7b4b916f1" archimateElement="id-dd9fd251d7de4ddeaacfcf0607213014">
+              <bounds x="24" y="36" width="277" height="85"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-c6c94d9b3a0e48ec8e718da629909cf3" source="id-41f30e5575714130a58d3e3f270f6eed" target="id-6bbfbfe80b62457b8f1c4a63165b4b84" archimateRelationship="id-c99c0193d3bf4b0d99483464594dc080"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-494b0dee767041599909401e86dd5f09" source="id-41f30e5575714130a58d3e3f270f6eed" target="id-8aa39a01012e401d8ace2855bff84132" archimateRelationship="id-8294e00f6b3f4f4a94233ccd6978a2ef"/>
+              <child xsi:type="archimate:DiagramObject" id="id-6bbfbfe80b62457b8f1c4a63165b4b84" targetConnections="id-c6c94d9b3a0e48ec8e718da629909cf3" archimateElement="id-f9e4d7047d044b599b723c9a6cf11019">
+                <bounds x="12" y="24" width="120" height="49"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-8aa39a01012e401d8ace2855bff84132" targetConnections="id-494b0dee767041599909401e86dd5f09" archimateElement="id-76639552f79642dcba63698d90fba994">
+                <bounds x="145" y="24" width="120" height="49"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-7b200fce4aee4691a3695aa7a7e4297d" targetConnections="id-03847ef138454df3ba3f50a50a2f7faf" archimateElement="id-c7b52a5dc29247f19f16dd5515278527">
+              <bounds x="320" y="36" width="277" height="85"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-01e1ffc93e7b490db4e381949008483b" source="id-7b200fce4aee4691a3695aa7a7e4297d" target="id-9a7c9cef1baa43c5b4c2829d37eedf8f" archimateRelationship="id-6b47f7202e414881a8b7f542cc1d8382"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-2c301ce804cb4579b5038eea320233f3" source="id-7b200fce4aee4691a3695aa7a7e4297d" target="id-97801bea906a440b92a258744262d3ab" archimateRelationship="id-ea589ad987f940adb43bdaf0acc6b68d"/>
+              <child xsi:type="archimate:DiagramObject" id="id-9a7c9cef1baa43c5b4c2829d37eedf8f" targetConnections="id-01e1ffc93e7b490db4e381949008483b" archimateElement="id-6542821b68d84706bf239a2004bbe4c1">
+                <bounds x="12" y="24" width="120" height="49"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-97801bea906a440b92a258744262d3ab" targetConnections="id-2c301ce804cb4579b5038eea320233f3" archimateElement="id-89ac489941e24d4796c8dd0e5d1c82b7">
+                <bounds x="145" y="24" width="120" height="49"/>
+              </child>
+            </child>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-ce304d3f1b684318a8868aa71dd2f4aa" targetConnections="id-248ca163cd3e4726872bd59a6b2e9376" archimateElement="id-5df1ba47687f41ba910382dc59547122">
+            <bounds x="24" y="36" width="625" height="133"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-e1bb36923acb488c932dcddad7073fe7" source="id-ce304d3f1b684318a8868aa71dd2f4aa" target="id-a0d816469ba64692a38927b196c5442e" archimateRelationship="id-6e1bede78e69440386e1efa5a8bb127e"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-bf9784887bfb48db9f4bc5ffd722a0c9" source="id-ce304d3f1b684318a8868aa71dd2f4aa" target="id-3cfda9f0ea694bb2baa91af2222dc943" archimateRelationship="id-7c55b06b28b54334b567cb55cc911bad"/>
+            <child xsi:type="archimate:DiagramObject" id="id-a0d816469ba64692a38927b196c5442e" targetConnections="id-e1bb36923acb488c932dcddad7073fe7" archimateElement="id-01784a2e570c4c66a45e8aa87711a78e">
+              <bounds x="24" y="36" width="277" height="85"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-1dd18f8090414f3d83f295196108eff7" source="id-a0d816469ba64692a38927b196c5442e" target="id-61771a3c090245498cfad6b672482f02" archimateRelationship="id-51a7e33c19fe44c6bea5e7f63694277c"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-22457cc7cca8464eadf4ae37084e9a32" source="id-a0d816469ba64692a38927b196c5442e" target="id-411a4244b1d84e72aa47c54dcc535d46" archimateRelationship="id-e58767bc24db42ac8b8cbeb00d96491b"/>
+              <child xsi:type="archimate:DiagramObject" id="id-61771a3c090245498cfad6b672482f02" targetConnections="id-1dd18f8090414f3d83f295196108eff7" archimateElement="id-ec3b5776993e4930976c0d2db8cf0be0">
+                <bounds x="12" y="24" width="120" height="49"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-411a4244b1d84e72aa47c54dcc535d46" targetConnections="id-22457cc7cca8464eadf4ae37084e9a32" archimateElement="id-d9adcbdd9ee44f25821513070ce8d136">
+                <bounds x="145" y="24" width="120" height="49"/>
+              </child>
+            </child>
+            <child xsi:type="archimate:DiagramObject" id="id-3cfda9f0ea694bb2baa91af2222dc943" targetConnections="id-bf9784887bfb48db9f4bc5ffd722a0c9" archimateElement="id-e7da6d5596394379994f840971ffa683">
+              <bounds x="320" y="36" width="277" height="85"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-59d6be9cbf3d45ffbadb4b1a92ac198c" source="id-3cfda9f0ea694bb2baa91af2222dc943" target="id-40656e1db7d740d1a0ab7c4905cb3f21" archimateRelationship="id-026790038a344743a0a39950b2b708e9"/>
+              <sourceConnection xsi:type="archimate:Connection" id="id-eb50e3e11a6145aeb2769ea866fb5e00" source="id-3cfda9f0ea694bb2baa91af2222dc943" target="id-1883a8ae2dbb4e4785413c5b2205c740" archimateRelationship="id-797fc0d38ffb4369b271390da18402be"/>
+              <child xsi:type="archimate:DiagramObject" id="id-40656e1db7d740d1a0ab7c4905cb3f21" targetConnections="id-59d6be9cbf3d45ffbadb4b1a92ac198c" archimateElement="id-c9860998e16b43638111abc666ce82f1">
+                <bounds x="145" y="24" width="120" height="49"/>
+              </child>
+              <child xsi:type="archimate:DiagramObject" id="id-1883a8ae2dbb4e4785413c5b2205c740" targetConnections="id-eb50e3e11a6145aeb2769ea866fb5e00" archimateElement="id-ccf4804e64c54bd9baedc01c9524db2e">
+                <bounds x="12" y="24" width="120" height="49"/>
+              </child>
+            </child>
+          </child>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="canvas:CanvasModel" name="SWOT" id="id-4d5d75362fc345f195c00be927951523" hintTitle="SWOT">
+      <child xsi:type="canvas:CanvasModelBlock" id="id-cefc54459a5d42dd95b82de942ae30b6" font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#e2ef86" locked="true" borderColor="#000000" hintTitle="Strengths">
+        <bounds x="84" y="60" width="373" height="373"/>
+        <child xsi:type="canvas:CanvasModelSticky" id="id-96be8931fffa4b1c9891f3bfb6bf9637" fillColor="#80ff80" borderColor="#C0C0C0" textPosition="1">
+          <bounds x="48" y="60" width="75" height="63"/>
+          <content>Strength 1</content>
+        </child>
+        <hintContent>&lt;p>List the characteristics of the business, or project team that give it an advantage over others.&lt;/p>&#xD;
+&#xD;
+&lt;LI>Advantages of proposition?&lt;/LI>&#xD;
+&lt;LI>Capabilities?&lt;/LI>&#xD;
+&lt;LI>Competitive advantages?&lt;/LI>&#xD;
+&lt;LI> USP's (unique selling points)?&lt;/LI>&#xD;
+&lt;LI>Resources, Assets, People?&lt;/LI>&#xD;
+&lt;LI>Experience, knowledge, data?&lt;/LI>&#xD;
+&lt;LI>Financial reserves, likely returns?&lt;/LI>&#xD;
+&lt;LI>Marketing - reach, distribution, awareness?&lt;/LI>&#xD;
+&lt;LI>Innovative aspects?&lt;/LI>&#xD;
+&lt;LI>Location and geographical?&lt;/LI>&#xD;
+&lt;LI>Price, value, quality?&lt;/LI>&#xD;
+&lt;LI>Accreditations, qualifications, certifications?&lt;/LI>&#xD;
+&lt;LI>Processes, systems, IT, communications?&lt;/LI>&#xD;
+&lt;LI>Cultural, attitudinal, behavioural?&lt;/LI>&#xD;
+&lt;LI>Management cover, succession?&lt;/LI></hintContent>
+        <content>Strengths</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelSticky" id="id-1d01585fb0224a74b6c59edac35eae4f" font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#d0f3ad" locked="true" borderColor="#C0C0C0" textPosition="1">
+        <bounds x="96" y="12" width="349" height="37"/>
+        <content>Helpful</content>
+        <notes>Helpful to achieving the objective</notes>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-d927c841f89e4eab8f1bd71b320dc8dc" font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#f9c284" locked="true" borderColor="#000000" hintTitle="Weaknesses">
+        <bounds x="456" y="60" width="373" height="373"/>
+        <hintContent>&lt;p>List the characteristics that place the team at a disadvantage relative to others&lt;/p>&#xD;
+&#xD;
+&lt;LI>Disadvantages of proposition?&lt;/LI>&#xD;
+&lt;LI>Gaps in capabilities?&lt;/LI>&#xD;
+&lt;LI>Lack of competitive strength?&lt;/LI>&#xD;
+&lt;LI>Reputation, presence and reach?&lt;/LI>&#xD;
+&lt;LI>Financials?&lt;/LI>&#xD;
+&lt;LI>Own known vulnerabilities?&lt;/LI>&#xD;
+&lt;LI>Timescales, deadlines and pressures?&lt;/LI>&#xD;
+&lt;LI>Cashflow, start-up cash-drain?&lt;/LI>&#xD;
+&lt;LI>Continuity, supply chain robustness?&lt;/LI>&#xD;
+&lt;LI>Effects on core activities, distraction?&lt;/LI>&#xD;
+&lt;LI>Reliability of data, plan predictability?&lt;/LI>&#xD;
+&lt;LI>Morale, commitment, leadership?&lt;/LI>&#xD;
+&lt;LI>Accreditations, etc?&lt;/LI>&#xD;
+&lt;LI>Processes and systems, etc?&lt;/LI>&#xD;
+&lt;LI>Management cover, succession?&lt;/LI></hintContent>
+        <content>Weaknesses</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-fa3d6e638a4b4f929fa33f2959f0e8e3" font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#a9d0bb" locked="true" borderColor="#000000" hintTitle="Opportunities">
+        <bounds x="84" y="432" width="373" height="373"/>
+        <hintContent>&lt;p>List the &lt;i>external&lt;/i> chances to improve performance (e.g. make greater profits) in the environment&lt;/p>&#xD;
+&lt;LI>Market developments?&lt;/LI>&#xD;
+&lt;LI>Competitors' vulnerabilities?&lt;/LI>&#xD;
+&lt;LI>Industry or lifestyle trends?&lt;/LI>&#xD;
+&lt;LI>Technology development and innovation?&lt;/LI>&#xD;
+&lt;LI>Global influences?&lt;/LI>&#xD;
+&lt;LI>New markets, vertical, horizontal?&lt;/LI>&#xD;
+&lt;LI>Niche target markets?&lt;/LI>&#xD;
+&lt;LI>Geographical, export, import?&lt;/LI>&#xD;
+&lt;LI>Market need for new USP's?&lt;/LI>&#xD;
+&lt;LI>Market response to tactics, e.g., surprise?&lt;/LI>&#xD;
+&lt;LI>Major contracts, tenders?&lt;/LI>&#xD;
+&lt;LI>Business and product development?&lt;/LI>&#xD;
+&lt;LI>Information and research?&lt;/LI>&#xD;
+&lt;LI>Partnerships, agencies, distribution?&lt;/LI>&#xD;
+&lt;LI>Market volume demand trends?&lt;/LI>&#xD;
+&lt;LI>Seasonal, weather, fashion influences?&lt;/LI></hintContent>
+        <content>Opportunities</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="id-167e227348e1444aadae7137f9384c4a" font="1|Segoe UI|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#c2a4b8" locked="true" borderColor="#000000" hintTitle="Threats">
+        <bounds x="456" y="432" width="373" height="373"/>
+        <hintContent>&lt;p>List the &lt;i>external&lt;/i> elements in the environment that could cause trouble for the business or project&lt;/p>&#xD;
+&lt;LI>Political effects?&lt;/LI> &#xD;
+&lt;LI>Legislative effects?&lt;/LI>&#xD;
+&lt;LI>Environmental effects?&lt;/LI>&#xD;
+&lt;LI>IT developments?&lt;/LI>&#xD;
+&lt;LI>Competitor intentions - various?&lt;/LI>&#xD;
+&lt;LI>Market demand?&lt;/LI>&#xD;
+&lt;LI>New technologies, services, ideas?&lt;/LI>&#xD;
+&lt;LI>Vital contracts and partners?&lt;/LI>&#xD;
+&lt;LI>Obstacles faced?&lt;/LI>&#xD;
+&lt;LI>Insurmountable weaknesses?&lt;/LI>&#xD;
+&lt;LI>Employment market?&lt;/LI>&#xD;
+&lt;LI>Financial and credit pressures?&lt;/LI>&#xD;
+&lt;LI>Economy - home, abroad?&lt;/LI>&#xD;
+&lt;LI>Seasonality, weather effects?&lt;/LI></hintContent>
+        <content>Threats</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelSticky" id="id-97c47a954b2644f096892cebec5eb881" font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#f8a9a9" locked="true" borderColor="#C0C0C0" textPosition="1">
+        <bounds x="468" y="12" width="349" height="37"/>
+        <content>Harmful</content>
+        <notes>Harmful to achieving the objective</notes>
+      </child>
+      <child xsi:type="canvas:CanvasModelSticky" id="id-0e20e2040075492d9ba62c3db41d2d36" font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#fef6b8" locked="true" borderColor="#C0C0C0" textPosition="1">
+        <bounds x="12" y="72" width="61" height="349"/>
+        <content>Internal</content>
+        <notes>The strengths and weaknesses internal to the organization.</notes>
+      </child>
+      <child xsi:type="canvas:CanvasModelSticky" id="id-1101e6599f5e4b4494398a30b068a4c9" font="1|Segoe UI|9.75|0|WINDOWS|1|-13|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" fillColor="#c6d8ec" locked="true" borderColor="#C0C0C0" textPosition="1">
+        <bounds x="12" y="444" width="61" height="349"/>
+        <content>External</content>
+        <notes>The opportunities and threats presented by the external environment to the organization.</notes>
+      </child>
+      <documentation>SWOT analysis is a strategic planning method used to evaluate the Strengths, Weaknesses/Limitations, Opportunities, and Threats involved in a project or in a business venture.&#xD;
+&#xD;
+It involves specifying the objective of the business venture or project and identifying the internal and external factors that are favorable and unfavorable to achieve that objective. The technique is credited to Albert Humphrey.</documentation>
+      <hintContent>&lt;p>SWOT analysis is a strategic planning method used to evaluate the &lt;b>S&lt;/b>trengths, &lt;b>W&lt;/b>eaknesses/Limitations, &lt;b>O&lt;/b>pportunities, and &lt;b>T&lt;/b>hreats involved in a project or in a business venture.&lt;/p>&#xD;
+&#xD;
+&lt;p>It involves specifying the objective of the business venture or project and identifying the internal and external factors that are favorable and unfavorable to achieve that objective. The technique is credited to Albert Humphrey.&lt;/p></hintContent>
+    </element>
+  </folder>
+</archimate:model>
