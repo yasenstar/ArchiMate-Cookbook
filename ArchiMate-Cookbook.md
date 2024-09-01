@@ -1,4 +1,5 @@
  ArchiMate Cookbook
+(Eero Hosiaisluoma)
 
 # 1. Introduction
 
@@ -222,7 +223,7 @@
 
 ##### Figure 59: Use Case View - Example 2
 
-# 3. ArchiMate-Elements (subset)
+# 3. ArchiMate Elements
 
 ## Figure 60: Subset of ArchiMate-elements
 

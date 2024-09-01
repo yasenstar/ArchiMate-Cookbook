@@ -3,7 +3,7 @@
 <node TEXT="ArchiMate Cookbook&#xa;(Eero Hosiaisluoma)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1725113815830">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font SIZE="18" BOLD="true"/>
-<hook NAME="MapStyle" background="#f9f9f8" zoom="1.001">
+<hook NAME="MapStyle" background="#f9f9f8" zoom="0.77">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_nord_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
@@ -86,7 +86,7 @@
 <node TEXT="1.2 References" ID="ID_1518779930" CREATED="1723553584974" MODIFIED="1723553588233"/>
 </node>
 <node TEXT="2. ArchiMate Diagram Types" POSITION="bottom_or_right" ID="ID_174497737" CREATED="1723553589714" MODIFIED="1723553608180">
-<node TEXT="2.1 Motivation View (Goals View)" ID="ID_767662570" CREATED="1723553608185" MODIFIED="1723553630665">
+<node TEXT="2.1 Motivation View (Goals View)" FOLDED="true" ID="ID_767662570" CREATED="1723553608185" MODIFIED="1723553630665">
 <node TEXT="Figure 02: Motivation View - Design Pattern" ID="ID_9937401" CREATED="1723553652258" MODIFIED="1723553663186"/>
 <node TEXT="2.1.1 Motivation View - Example" ID="ID_157389872" CREATED="1723553672535" MODIFIED="1723553689568">
 <node TEXT="Figure 03: Motivation View - Example" ID="ID_1721526460" CREATED="1723553753788" MODIFIED="1723553762081"/>
@@ -96,7 +96,7 @@
 </node>
 </node>
 <node TEXT="2.2 Business Model View" ID="ID_309796015" CREATED="1723553808103" MODIFIED="1723553817276">
-<node TEXT="2.2.1 Business Model Canvas (BMC)" ID="ID_702332814" CREATED="1723553817280" MODIFIED="1725181177679" LINK="https://businessmodelanalyst.com/business-model-canvas/">
+<node TEXT="2.2.1 Business Model Canvas (BMC)" FOLDED="true" ID="ID_702332814" CREATED="1723553817280" MODIFIED="1725181177679" LINK="https://businessmodelanalyst.com/business-model-canvas/">
 <node TEXT="Figure 05: Business Model - Business Model Canvas (BMC)" ID="ID_1900153440" CREATED="1723553826105" MODIFIED="1723553844955"/>
 </node>
 <node TEXT="2.2.2 SWOT Analysis View" FOLDED="true" ID="ID_1400371954" CREATED="1723553852201" MODIFIED="1723553863392">
@@ -109,7 +109,7 @@
 <node TEXT="Figure 09: Relation of the Value Stream and the Business Process" ID="ID_1622683037" CREATED="1723554077066" MODIFIED="1723554100375"/>
 </node>
 </node>
-<node TEXT="2.2.4 Strategy &amp; Capability View" ID="ID_98056612" CREATED="1723554115045" MODIFIED="1723554125082">
+<node TEXT="2.2.4 Strategy &amp; Capability View" FOLDED="true" ID="ID_98056612" CREATED="1723554115045" MODIFIED="1723554125082">
 <node TEXT="Figure 10: Strategy - Design Pattern" ID="ID_366089353" CREATED="1723554125087" MODIFIED="1723554138884"/>
 <node TEXT="2.2.4.1 Capability Map View" FOLDED="true" ID="ID_1959401556" CREATED="1723554143546" MODIFIED="1723554164275">
 <node TEXT="Figure 11: Capability Map View - Example" ID="ID_1256049835" CREATED="1723554164278" MODIFIED="1723554176275"/>
@@ -120,11 +120,11 @@
 <node TEXT="2.2.4.3 Strategy To Capability View" FOLDED="true" ID="ID_1808886949" CREATED="1723554288985" MODIFIED="1723554303879">
 <node TEXT="Figure 13: Strategy to Capability View - Example" ID="ID_265409252" CREATED="1723554303882" MODIFIED="1723554326921"/>
 </node>
-<node TEXT="2.2.4.4 Capability Planning View" FOLDED="true" ID="ID_378837838" CREATED="1723554332244" MODIFIED="1723554341576">
+<node TEXT="2.2.4.4 Capability Planning View" ID="ID_378837838" CREATED="1723554332244" MODIFIED="1723554341576">
 <node TEXT="Figure 14: Capability Planning View - Example" ID="ID_304785148" CREATED="1723554341581" MODIFIED="1723554356951"/>
 </node>
 </node>
-<node TEXT="2.2.5 Implementation Roadmap View" FOLDED="true" ID="ID_867898363" CREATED="1723554360550" MODIFIED="1723554372639">
+<node TEXT="2.2.5 Implementation Roadmap View" ID="ID_867898363" CREATED="1723554360550" MODIFIED="1723554372639">
 <node TEXT="Figure 15: Implementation Roadmap View - Example" ID="ID_1038207282" CREATED="1723554372644" MODIFIED="1723554386263"/>
 <node TEXT="Figure 16: Implementation Roadmap View - Example 2" ID="ID_446556978" CREATED="1723554390927" MODIFIED="1723554408972"/>
 </node>
@@ -155,7 +155,7 @@
 <node TEXT="Figure 26: Service Blueprint as a Layered View" ID="ID_925612510" CREATED="1723555774362" MODIFIED="1723555789346"/>
 </node>
 </node>
-<node TEXT="2.4 Interaction View (Co-operation View)" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
+<node TEXT="2.4 Interaction View (Co-operation View)" FOLDED="true" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
 <node TEXT="2.4.1 Actor Interaction (Co-operation) View" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
 <node TEXT="Figure 27: Actor Interaction (Co-operation) View - Design Pattern" ID="ID_512157710" CREATED="1723555830003" MODIFIED="1723555847008"/>
 </node>
