@@ -131,22 +131,22 @@
 </node>
 <node TEXT="2.3 Layered View" FOLDED="true" ID="ID_1106679702" CREATED="1723555337980" MODIFIED="1723555343964">
 <node TEXT="Figure 17: Layered View (Overview) - Basic Design Pattern" ID="ID_62170333" CREATED="1723555343974" MODIFIED="1723555362462"/>
-<node TEXT="2.3.1 Layered View - Business and Application Layers Example" ID="ID_919349645" CREATED="1723555366469" MODIFIED="1723555396642">
+<node TEXT="2.3.1 Layered View - Business and Application Layers Example" FOLDED="true" ID="ID_919349645" CREATED="1723555366469" MODIFIED="1723555396642">
 <node TEXT="Figure 18: Layered View Example - Business and Application Layers" ID="ID_1850645486" CREATED="1723555396648" MODIFIED="1723555421668"/>
 </node>
-<node TEXT="2.3.2 Layered View - Business Layer" ID="ID_1248790052" CREATED="1723555428548" MODIFIED="1723555437892">
+<node TEXT="2.3.2 Layered View - Business Layer" FOLDED="true" ID="ID_1248790052" CREATED="1723555428548" MODIFIED="1723555437892">
 <node TEXT="Figure 19: Layered View, Business Layer - Design Pattern" ID="ID_1028838731" CREATED="1723555437897" MODIFIED="1723555457980"/>
 </node>
-<node TEXT="2.3.3 Layered View - Customer Service Journey" ID="ID_1427073746" CREATED="1723555464113" MODIFIED="1723555477705">
+<node TEXT="2.3.3 Layered View - Customer Service Journey" FOLDED="true" ID="ID_1427073746" CREATED="1723555464113" MODIFIED="1723555477705">
 <node TEXT="Figure 20: Customer Service Journey - Design Pattern" ID="ID_1696637529" CREATED="1723555477709" MODIFIED="1723555491684"/>
-<node TEXT="2.3.3.1 Layered View - Customer Journey View - Example" ID="ID_727286364" CREATED="1723555515912" MODIFIED="1723555532291">
+<node TEXT="2.3.3.1 Layered View - Customer Journey View - Example" FOLDED="true" ID="ID_727286364" CREATED="1723555515912" MODIFIED="1723555532291">
 <node TEXT="Figure 21: Customer Service Journey - Example" ID="ID_812851305" CREATED="1723555532297" MODIFIED="1723555561390"/>
 </node>
 </node>
-<node TEXT="2.3.4 Layered View - Swimline Process View" ID="ID_244901055" CREATED="1723555567388" MODIFIED="1723555581537">
+<node TEXT="2.3.4 Layered View - Swimline Process View" FOLDED="true" ID="ID_244901055" CREATED="1723555567388" MODIFIED="1723555581537">
 <node TEXT="Figure 22: Swimline Process View - Design Pattern" ID="ID_440265571" CREATED="1723555581541" MODIFIED="1723555597929"/>
 </node>
-<node TEXT="2.3.5 Layered View - Service Design View" ID="ID_1116425021" CREATED="1723555707359" MODIFIED="1723555717737">
+<node TEXT="2.3.5 Layered View - Service Design View" FOLDED="true" ID="ID_1116425021" CREATED="1723555707359" MODIFIED="1723555717737">
 <node TEXT="Figure 23: Service Design View - Design Pattern" ID="ID_1898754223" CREATED="1723555717742" MODIFIED="1723555728639"/>
 <node TEXT="Figure 24: Service Design View - Design Pattern 2" ID="ID_1743863640" CREATED="1723555733249" MODIFIED="1723555746164"/>
 </node>
@@ -155,14 +155,14 @@
 <node TEXT="Figure 26: Service Blueprint as a Layered View" ID="ID_925612510" CREATED="1723555774362" MODIFIED="1723555789346"/>
 </node>
 </node>
-<node TEXT="2.4 Interaction View (Co-operation View)" FOLDED="true" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
+<node TEXT="2.4 Interaction View (Co-operation View)" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
 <node TEXT="2.4.1 Actor Interaction (Co-operation) View" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
 <node TEXT="Figure 27: Actor Interaction (Co-operation) View - Design Pattern" ID="ID_512157710" CREATED="1723555830003" MODIFIED="1723555847008"/>
 </node>
-<node TEXT="2.4.2 Process Interaction (Co-operation) View" ID="ID_401042879" CREATED="1723555849151" MODIFIED="1723555859649">
+<node TEXT="2.4.2 Process Interaction (Co-operation) View" FOLDED="true" ID="ID_401042879" CREATED="1723555849151" MODIFIED="1723555859649">
 <node TEXT="Figure 28: Process Interaction (Co-operation) View - Design Pattern" ID="ID_1114883184" CREATED="1723555859651" MODIFIED="1723555876618"/>
 </node>
-<node TEXT="2.4.3 Application Interaction (Co-operation) View" ID="ID_522783531" CREATED="1723555933993" MODIFIED="1723555948138">
+<node TEXT="2.4.3 Application Interaction (Co-operation) View" FOLDED="true" ID="ID_522783531" CREATED="1723555933993" MODIFIED="1723555948138">
 <node TEXT="Figure 29: Application Interaction (Co-operation) View - Design Pattern" ID="ID_559619461" CREATED="1723555948143" MODIFIED="1723556051176"/>
 </node>
 </node>
