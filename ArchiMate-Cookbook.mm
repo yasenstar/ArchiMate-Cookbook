@@ -95,7 +95,7 @@
 <node TEXT="Figure 04: Risk and Security View - Pattern" ID="ID_373323988" CREATED="1723553774178" MODIFIED="1723553802581"/>
 </node>
 </node>
-<node TEXT="2.2 Business Model View" ID="ID_309796015" CREATED="1723553808103" MODIFIED="1723553817276">
+<node TEXT="2.2 Business Model View" FOLDED="true" ID="ID_309796015" CREATED="1723553808103" MODIFIED="1723553817276">
 <node TEXT="2.2.1 Business Model Canvas (BMC)" FOLDED="true" ID="ID_702332814" CREATED="1723553817280" MODIFIED="1725181177679" LINK="https://businessmodelanalyst.com/business-model-canvas/">
 <node TEXT="Figure 05: Business Model - Business Model Canvas (BMC)" ID="ID_1900153440" CREATED="1723553826105" MODIFIED="1723553844955"/>
 </node>
@@ -109,7 +109,7 @@
 <node TEXT="Figure 09: Relation of the Value Stream and the Business Process" ID="ID_1622683037" CREATED="1723554077066" MODIFIED="1723554100375"/>
 </node>
 </node>
-<node TEXT="2.2.4 Strategy &amp; Capability View" FOLDED="true" ID="ID_98056612" CREATED="1723554115045" MODIFIED="1723554125082">
+<node TEXT="2.2.4 Strategy &amp; Capability View" ID="ID_98056612" CREATED="1723554115045" MODIFIED="1723554125082">
 <node TEXT="Figure 10: Strategy - Design Pattern" ID="ID_366089353" CREATED="1723554125087" MODIFIED="1723554138884"/>
 <node TEXT="2.2.4.1 Capability Map View" FOLDED="true" ID="ID_1959401556" CREATED="1723554143546" MODIFIED="1723554164275">
 <node TEXT="Figure 11: Capability Map View - Example" ID="ID_1256049835" CREATED="1723554164278" MODIFIED="1723554176275"/>
@@ -120,7 +120,7 @@
 <node TEXT="2.2.4.3 Strategy To Capability View" FOLDED="true" ID="ID_1808886949" CREATED="1723554288985" MODIFIED="1723554303879">
 <node TEXT="Figure 13: Strategy to Capability View - Example" ID="ID_265409252" CREATED="1723554303882" MODIFIED="1723554326921"/>
 </node>
-<node TEXT="2.2.4.4 Capability Planning View" ID="ID_378837838" CREATED="1723554332244" MODIFIED="1723554341576">
+<node TEXT="2.2.4.4 Capability Planning View" FOLDED="true" ID="ID_378837838" CREATED="1723554332244" MODIFIED="1723554341576">
 <node TEXT="Figure 14: Capability Planning View - Example" ID="ID_304785148" CREATED="1723554341581" MODIFIED="1723554356951"/>
 </node>
 </node>
