@@ -156,17 +156,17 @@
 </node>
 </node>
 <node TEXT="2.4 Interaction View (Co-operation View)" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
-<node TEXT="2.4.1 Actor Interaction (Co-operation) View" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
+<node TEXT="2.4.1 Actor Interaction (Co-operation) View" FOLDED="true" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
 <node TEXT="Figure 27: Actor Interaction (Co-operation) View - Design Pattern" ID="ID_512157710" CREATED="1723555830003" MODIFIED="1723555847008"/>
 </node>
 <node TEXT="2.4.2 Process Interaction (Co-operation) View" FOLDED="true" ID="ID_401042879" CREATED="1723555849151" MODIFIED="1723555859649">
 <node TEXT="Figure 28: Process Interaction (Co-operation) View - Design Pattern" ID="ID_1114883184" CREATED="1723555859651" MODIFIED="1723555876618"/>
 </node>
-<node TEXT="2.4.3 Application Interaction (Co-operation) View" FOLDED="true" ID="ID_522783531" CREATED="1723555933993" MODIFIED="1723555948138">
+<node TEXT="2.4.3 Application Interaction (Co-operation) View" ID="ID_522783531" CREATED="1723555933993" MODIFIED="1723555948138">
 <node TEXT="Figure 29: Application Interaction (Co-operation) View - Design Pattern" ID="ID_559619461" CREATED="1723555948143" MODIFIED="1723556051176"/>
 </node>
 </node>
-<node TEXT="2.5 Business Process View" FOLDED="true" ID="ID_1305559749" CREATED="1723556115438" MODIFIED="1723556122843">
+<node TEXT="2.5 Business Process View" ID="ID_1305559749" CREATED="1723556115438" MODIFIED="1723556122843">
 <node TEXT="Figure 30: Process View - Example" ID="ID_1888144211" CREATED="1723556122849" MODIFIED="1723556130753"/>
 <node TEXT="2.5.1 Business Process Functional Decomposition View" ID="ID_1307255221" CREATED="1723556137071" MODIFIED="1723556163136">
 <node TEXT="Figure 31: Business Function View - A process may span multiple business functions" ID="ID_651588095" CREATED="1723556163140" MODIFIED="1723556330471"/>
