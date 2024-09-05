@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="2-4-1_Actor-Interaction-View" id="id-c6d7f629ba844fe8888e28f3646c0779" version="5.0.0">
+  <folder name="Strategy" id="id-cec65c150be8468987c50968aa699f1a" type="strategy"/>
+  <folder name="Business" id="id-04ad8fc6cfd34f21b9c6cda2ff66e440" type="business"/>
+  <folder name="Application" id="id-6e1bea9d8e10440e8810d0a76c5ab704" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-069b37dff6794970ac2a22df22db01c1" type="technology"/>
+  <folder name="Motivation" id="id-6a4f3170c75c4658b26ebb8ceb758b9d" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-ec9ec0986d934fb392075c2348f77233" type="implementation_migration"/>
+  <folder name="Other" id="id-dd4f5c60f1c64ebe9da9e6d0085a5d6e" type="other"/>
+  <folder name="Relations" id="id-50ba065508f643d89f08f48806ff5a11" type="relations"/>
+  <folder name="Views" id="id-2b727e6539ff43ca8ce13c45fad0237b" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-4-1_Figure27_Actor-Interaction-View" id="id-b878dd87f3ba43c285a89299b4bebd28"/>
+  </folder>
+</archimate:model>
