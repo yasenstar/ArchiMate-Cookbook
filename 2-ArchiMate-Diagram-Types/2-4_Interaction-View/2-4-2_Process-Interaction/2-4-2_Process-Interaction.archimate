@@ -7,26 +7,27 @@
       <element xsi:type="archimate:BusinessProcess" name="Business Actor B" id="id-5e3c3c1444d14b4eba9efc1978eea2a5"/>
       <element xsi:type="archimate:BusinessProcess" name="Business Actor C" id="id-0dfc0e509ddc43aa96b38b59d2cb5742"/>
     </folder>
-    <folder name="Process-Interaction-Example" id="id-611b944724bf439f88df819fdd253139"/>
-    <element xsi:type="archimate:BusinessProcess" name="Statutory Requirements" id="id-c5e0503d70a0406ba6fbd7c5b5f86509"/>
-    <element xsi:type="archimate:BusinessProcess" name="Business Objectives" id="id-6a6e79da8ca749eea749209b080c42e1"/>
-    <element xsi:type="archimate:BusinessProcess" name="Management Responsibility" id="id-e3ba331079734e07949a6fe2fb4e6b5f"/>
-    <element xsi:type="archimate:BusinessProcess" name="Resource Management" id="id-2e689b8178dc47cf9983e2ee42c0e3e2"/>
-    <element xsi:type="archimate:BusinessProcess" name="Measurement Analysis Improvement" id="id-3feddf3390e242a5ab16fd76e85c616d"/>
-    <element xsi:type="archimate:BusinessProcess" name="Preventive Action" id="id-64db46cd6e7546f38b9e756e1ea81e8d"/>
-    <element xsi:type="archimate:BusinessProcess" name="Product Realization" id="id-6b3b7683aab84c7c999c690a59d37b67"/>
-    <element xsi:type="archimate:BusinessProcess" name="Corrective Action" id="id-8d9bad6498c845a68389c8a78c63aad3"/>
-    <element xsi:type="archimate:BusinessProcess" name="Cusotmer Awareness" id="id-79ccab764ca04929a8c22ac42a7d5450"/>
-    <element xsi:type="archimate:BusinessProcess" name="Customer Requirements" id="id-8600d09f932b4bbdbe6786cc60389722"/>
-    <element xsi:type="archimate:BusinessProcess" name="External Audit Results" id="id-d40b7c7aae6446f9b629287821ebb31c"/>
-    <element xsi:type="archimate:BusinessProcess" name="Customer Satisfaction" id="id-cc8c8edb8f2d4148af09a896b042d760"/>
-    <element xsi:type="archimate:BusinessRole" name="Business Process" id="id-4839b175cd3e44eaa55a5ae62b3d4224"/>
-    <element xsi:type="archimate:BusinessRole" name=".legend.business-role" id="id-8f333f136196438899eeb05ddd6aa22f">
-      <documentation>Business Role</documentation>
-    </element>
-    <element xsi:type="archimate:BusinessProcess" name=".legend.business-process" id="id-34992f7cb66f4fd8a2895fd4e7e81c78">
-      <documentation>Business Process</documentation>
-    </element>
+    <folder name="Process-Interaction-Example" id="id-611b944724bf439f88df819fdd253139">
+      <element xsi:type="archimate:BusinessProcess" name=".legend.business-process" id="id-34992f7cb66f4fd8a2895fd4e7e81c78">
+        <documentation>Business Process</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" name=".legend.business-role" id="id-8f333f136196438899eeb05ddd6aa22f">
+        <documentation>Business Role</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessProcess" name="Business Objectives" id="id-6a6e79da8ca749eea749209b080c42e1"/>
+      <element xsi:type="archimate:BusinessRole" name="Business Process" id="id-4839b175cd3e44eaa55a5ae62b3d4224"/>
+      <element xsi:type="archimate:BusinessProcess" name="Corrective Action" id="id-8d9bad6498c845a68389c8a78c63aad3"/>
+      <element xsi:type="archimate:BusinessProcess" name="Cusotmer Awareness" id="id-79ccab764ca04929a8c22ac42a7d5450"/>
+      <element xsi:type="archimate:BusinessProcess" name="Customer Requirements" id="id-8600d09f932b4bbdbe6786cc60389722"/>
+      <element xsi:type="archimate:BusinessProcess" name="Customer Satisfaction" id="id-cc8c8edb8f2d4148af09a896b042d760"/>
+      <element xsi:type="archimate:BusinessProcess" name="External Audit Results" id="id-d40b7c7aae6446f9b629287821ebb31c"/>
+      <element xsi:type="archimate:BusinessProcess" name="Management Responsibility" id="id-e3ba331079734e07949a6fe2fb4e6b5f"/>
+      <element xsi:type="archimate:BusinessProcess" name="Measurement Analysis Improvement" id="id-3feddf3390e242a5ab16fd76e85c616d"/>
+      <element xsi:type="archimate:BusinessProcess" name="Preventive Action" id="id-64db46cd6e7546f38b9e756e1ea81e8d"/>
+      <element xsi:type="archimate:BusinessProcess" name="Product Realization" id="id-6b3b7683aab84c7c999c690a59d37b67"/>
+      <element xsi:type="archimate:BusinessProcess" name="Resource Management" id="id-2e689b8178dc47cf9983e2ee42c0e3e2"/>
+      <element xsi:type="archimate:BusinessProcess" name="Statutory Requirements" id="id-c5e0503d70a0406ba6fbd7c5b5f86509"/>
+    </folder>
   </folder>
   <folder name="Application" id="id-6e1bea9d8e10440e8810d0a76c5ab704" type="application"/>
   <folder name="Technology &amp; Physical" id="id-069b37dff6794970ac2a22df22db01c1" type="technology"/>

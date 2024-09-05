@@ -155,11 +155,11 @@
 <node TEXT="Figure 26: Service Blueprint as a Layered View" ID="ID_925612510" CREATED="1723555774362" MODIFIED="1723555789346"/>
 </node>
 </node>
-<node TEXT="2.4 Interaction View (Co-operation View)" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
-<node TEXT="2.4.1 Actor Interaction (Co-operation) View" FOLDED="true" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
+<node TEXT="2.4 Interaction View (Co-operation View)" FOLDED="true" ID="ID_848952655" CREATED="1723555793831" MODIFIED="1723555804754">
+<node TEXT="2.4.1 Actor Interaction (Co-operation) View" ID="ID_495470749" CREATED="1723555808234" MODIFIED="1723555829999">
 <node TEXT="Figure 27: Actor Interaction (Co-operation) View - Design Pattern" ID="ID_512157710" CREATED="1723555830003" MODIFIED="1723555847008"/>
 </node>
-<node TEXT="2.4.2 Process Interaction (Co-operation) View" FOLDED="true" ID="ID_401042879" CREATED="1723555849151" MODIFIED="1723555859649">
+<node TEXT="2.4.2 Process Interaction (Co-operation) View" ID="ID_401042879" CREATED="1723555849151" MODIFIED="1723555859649">
 <node TEXT="Figure 28: Process Interaction (Co-operation) View - Design Pattern" ID="ID_1114883184" CREATED="1723555859651" MODIFIED="1723555876618"/>
 </node>
 <node TEXT="2.4.3 Application Interaction (Co-operation) View" ID="ID_522783531" CREATED="1723555933993" MODIFIED="1723555948138">
@@ -173,13 +173,13 @@
 <node TEXT="Figure 32: Business Process Map with Function-Based Decomposition" ID="ID_1639944126" CREATED="1723556344941" MODIFIED="1723556361155"/>
 </node>
 </node>
-<node TEXT="2.6 Conceptual Data Model View" FOLDED="true" ID="ID_926640307" CREATED="1723556365053" MODIFIED="1723556375268">
+<node TEXT="2.6 Conceptual Data Model View" ID="ID_926640307" CREATED="1723556365053" MODIFIED="1723556375268">
 <node TEXT="Figure 33: Conceptual Data Model View - Example" ID="ID_703920131" CREATED="1723556375274" MODIFIED="1723556388860"/>
 </node>
-<node TEXT="2.7 Data Model View" FOLDED="true" ID="ID_319124742" CREATED="1723556392728" MODIFIED="1723556397603">
+<node TEXT="2.7 Data Model View" ID="ID_319124742" CREATED="1723556392728" MODIFIED="1723556397603">
 <node TEXT="Figure 34: Data Model View - Example" ID="ID_873534111" CREATED="1723556397608" MODIFIED="1723556405105"/>
 </node>
-<node TEXT="2.8 Technology Platform View (Infrastructure View)" FOLDED="true" ID="ID_696753988" CREATED="1723556408280" MODIFIED="1723556425021">
+<node TEXT="2.8 Technology Platform View (Infrastructure View)" ID="ID_696753988" CREATED="1723556408280" MODIFIED="1723556425021">
 <node TEXT="Figure 35: Technology Platform View - Design Pattern" ID="ID_1798489534" CREATED="1723556425030" MODIFIED="1723556440656"/>
 <node TEXT="Figure 36: Technology Platform - Example" ID="ID_1232868505" CREATED="1723556442949" MODIFIED="1723556453565"/>
 </node>
