@@ -17,7 +17,6 @@
   <folder name="Relations" id="id-220cec2732f34bef93e367ef0b8db9fc" type="relations">
     <element xsi:type="archimate:AssociationRelationship" name="0..n" id="id-31b540f763394278898f7989f457ad2c" source="id-6d5ab8e1dc4c44c88633d04b4a502381" target="id-ddc7614d311e40f3999b6e862a2578d9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-5196c04f118746e0ae3d1c22c8d9c3a3" source="id-6d5ab8e1dc4c44c88633d04b4a502381" target="id-186e6f2103aa4b6d9cea2251f3417db6"/>
-    <element xsi:type="archimate:AssociationRelationship" id="id-f17bb7e013bb44f8941b9158f0aac97d" source="id-186e6f2103aa4b6d9cea2251f3417db6" target="id-e9b66eb7dce9400194e0b8930016cd86"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-028a4e5459ea47319b349f95bb3c20e2" source="id-e9b66eb7dce9400194e0b8930016cd86" target="id-ddc7614d311e40f3999b6e862a2578d9"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-c0d7a815d62248628159825734bab845" source="id-e9b66eb7dce9400194e0b8930016cd86" target="id-6d5ab8e1dc4c44c88633d04b4a502381"/>
     <element xsi:type="archimate:CompositionRelationship" id="id-c25ae2050c2944dcaa059a10f14f8260" source="id-6d5ab8e1dc4c44c88633d04b4a502381" target="id-0a3a8c6152bf488fbbcf1b874d6c77c5"/>
@@ -46,9 +45,8 @@
       <child xsi:type="archimate:DiagramObject" id="id-ad2f5f8ac4d9448696a2e4a0bb2d7e79" targetConnections="id-291a41f2feeb4470aae9634f64c1a598" archimateElement="id-186e6f2103aa4b6d9cea2251f3417db6">
         <bounds x="323" y="246" width="168" height="55"/>
         <feature name="labelExpression" value="${name}&#xD;&#xA;(${type})"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-c8118177d12244ba83ff7d4d9b7e426f" source="id-ad2f5f8ac4d9448696a2e4a0bb2d7e79" target="id-a7e92f2831a848c383c8fb11fc8fffde" archimateRelationship="id-f17bb7e013bb44f8941b9158f0aac97d"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-a7e92f2831a848c383c8fb11fc8fffde" targetConnections="id-c8118177d12244ba83ff7d4d9b7e426f" archimateElement="id-e9b66eb7dce9400194e0b8930016cd86">
+      <child xsi:type="archimate:DiagramObject" id="id-a7e92f2831a848c383c8fb11fc8fffde" archimateElement="id-e9b66eb7dce9400194e0b8930016cd86">
         <bounds x="566" y="247" width="168" height="55"/>
         <feature name="labelExpression" value="${name}&#xD;&#xA;(${type})"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-caecfbe7a5e0470ca7ff7867b2644e4c" source="id-a7e92f2831a848c383c8fb11fc8fffde" target="id-cef95b0f50e54fd7a2119d4961b9df22" archimateRelationship="id-028a4e5459ea47319b349f95bb3c20e2">
