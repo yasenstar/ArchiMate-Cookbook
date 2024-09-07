@@ -166,14 +166,14 @@
 <node TEXT="Figure 29: Application Interaction (Co-operation) View - Design Pattern" ID="ID_559619461" CREATED="1723555948143" MODIFIED="1723556051176"/>
 </node>
 </node>
-<node TEXT="2.5 Business Process View" ID="ID_1305559749" CREATED="1723556115438" MODIFIED="1723556122843">
+<node TEXT="2.5 Business Process View" FOLDED="true" ID="ID_1305559749" CREATED="1723556115438" MODIFIED="1723556122843">
 <node TEXT="Figure 30: Process View - Example" ID="ID_1888144211" CREATED="1723556122849" MODIFIED="1723556130753"/>
 <node TEXT="2.5.1 Business Process Functional Decomposition View" ID="ID_1307255221" CREATED="1723556137071" MODIFIED="1723556163136">
 <node TEXT="Figure 31: Business Function View - A process may span multiple business functions" ID="ID_651588095" CREATED="1723556163140" MODIFIED="1723556330471"/>
 <node TEXT="Figure 32: Business Process Map with Function-Based Decomposition" ID="ID_1639944126" CREATED="1723556344941" MODIFIED="1723556361155"/>
 </node>
 </node>
-<node TEXT="2.6 Conceptual Data Model View" FOLDED="true" ID="ID_926640307" CREATED="1723556365053" MODIFIED="1723556375268">
+<node TEXT="2.6 Conceptual Data Model View" FOLDED="true" ID="ID_926640307" CREATED="1723556365053" MODIFIED="1725630869957" LINK="https://forum.archimatetool.com/index.php?topic=1248.0">
 <node TEXT="Figure 33: Conceptual Data Model View - Example" ID="ID_703920131" CREATED="1723556375274" MODIFIED="1723556388860"/>
 </node>
 <node TEXT="2.7 Data Model View" FOLDED="true" ID="ID_319124742" CREATED="1723556392728" MODIFIED="1723556397603">
@@ -183,36 +183,36 @@
 <node TEXT="Figure 35: Technology Platform View - Design Pattern" ID="ID_1798489534" CREATED="1723556425030" MODIFIED="1723556440656"/>
 <node TEXT="Figure 36: Technology Platform - Example" ID="ID_1232868505" CREATED="1723556442949" MODIFIED="1723556453565"/>
 </node>
-<node TEXT="2.9 Application Structure View (Solution Architecture View)" FOLDED="true" ID="ID_1726482629" CREATED="1723556456222" MODIFIED="1723556471675">
-<node TEXT="2.9.1 Application Design Pattern (Basic Model)" ID="ID_1591983568" CREATED="1723556471682" MODIFIED="1723556513169">
+<node TEXT="2.9 Application Structure View (Solution Architecture View)" ID="ID_1726482629" CREATED="1723556456222" MODIFIED="1723556471675">
+<node TEXT="2.9.1 Application Design Pattern (Basic Model)" FOLDED="true" ID="ID_1591983568" CREATED="1723556471682" MODIFIED="1723556513169">
 <node TEXT="Figure 37: Application View - Design Pattern (Basic Model)" ID="ID_1665537415" CREATED="1723556513172" MODIFIED="1723556529319"/>
 <node TEXT="Figure 38: Application View - Design Pattern (Simplification of the Basic Model)" ID="ID_876891093" CREATED="1723556533281" MODIFIED="1723556603990"/>
 <node TEXT="Figure 39: Application Component and (provided) Application Interface" ID="ID_862931287" CREATED="1723556608328" MODIFIED="1723556637532"/>
 </node>
-<node TEXT="2.9.2 Application Logical Structure View (Application Structure / Internal Structure)" ID="ID_632202995" CREATED="1723556640244" MODIFIED="1723556659915">
+<node TEXT="2.9.2 Application Logical Structure View (Application Structure / Internal Structure)" FOLDED="true" ID="ID_632202995" CREATED="1723556640244" MODIFIED="1723556659915">
 <node TEXT="Figure 40: Application Logical Structure (functional decomposition into sub-components / modularization)" ID="ID_1990552356" CREATED="1723556659919" MODIFIED="1723556700276"/>
 <node TEXT="Figure 41: Application Logical Structure: sub-components and application services" ID="ID_1472254528" CREATED="1723556704101" MODIFIED="1723556723404"/>
 <node TEXT="Figure 42: Application Logical Structure: Application Functions assigned to modules of an application (A)" ID="ID_1326670790" CREATED="1723556724123" MODIFIED="1723556747585"/>
 </node>
-<node TEXT="2.9.3 Component Model (CM)" ID="ID_1237621359" CREATED="1723556758118" MODIFIED="1723556820981">
-<node TEXT="2.9.3.1 Component Model - 0 (CM-0)" ID="ID_888855253" CREATED="1723556820984" MODIFIED="1723556836222">
+<node TEXT="2.9.3 Component Model (CM)" FOLDED="true" ID="ID_1237621359" CREATED="1723556758118" MODIFIED="1723556820981">
+<node TEXT="2.9.3.1 Component Model - 0 (CM-0)" FOLDED="true" ID="ID_888855253" CREATED="1723556820984" MODIFIED="1723556836222">
 <node TEXT="Figure 43: Component Model - 0 (CM-0)" ID="ID_1249850803" CREATED="1723556836225" MODIFIED="1723556854480"/>
 </node>
-<node TEXT="2.9.3.2 Component Model - 1 (CM-1)" ID="ID_49800310" CREATED="1723556857188" MODIFIED="1723556914812">
+<node TEXT="2.9.3.2 Component Model - 1 (CM-1)" FOLDED="true" ID="ID_49800310" CREATED="1723556857188" MODIFIED="1723556914812">
 <node TEXT="Figure 44: Component Model - 1 (CM-1)" ID="ID_779024941" CREATED="1723556867063" MODIFIED="1723556877952"/>
 </node>
-<node TEXT="2.9.3.3 Component Model - 2 (CM-2)" ID="ID_833323973" CREATED="1723556886831" MODIFIED="1723556923269">
+<node TEXT="2.9.3.3 Component Model - 2 (CM-2)" FOLDED="true" ID="ID_833323973" CREATED="1723556886831" MODIFIED="1723556923269">
 <node TEXT="Figure 45: Component Model - 2 (CM-2)" ID="ID_1543596257" CREATED="1723556953749" MODIFIED="1723556968149"/>
 </node>
 </node>
-<node TEXT="2.9.4 Database" ID="ID_1494286711" CREATED="1723556969828" MODIFIED="1723556979098">
+<node TEXT="2.9.4 Database" FOLDED="true" ID="ID_1494286711" CREATED="1723556969828" MODIFIED="1723556979098">
 <node TEXT="Figure 46: Modeling a logical database with ArchiMate" ID="ID_308356305" CREATED="1723556979102" MODIFIED="1723556993815"/>
 <node TEXT="Figure 47: Data Model View" ID="ID_887029660" CREATED="1723556993992" MODIFIED="1723557035244"/>
 <node TEXT="Figure 48: Database as a component of an application system" ID="ID_431845511" CREATED="1723557039145" MODIFIED="1723557053693"/>
 <node TEXT="Figure 49: Database modelling in different abstraction levels" ID="ID_21762412" CREATED="1723557056364" MODIFIED="1723557073420"/>
 </node>
-<node TEXT="2.9.5 Application Integrations" ID="ID_286924792" CREATED="1723557076251" MODIFIED="1723557084495">
-<node TEXT="2.9.5.1 Application Interface and Synchronic Request-Reply Design Pattern" ID="ID_1249704241" CREATED="1723557084499" MODIFIED="1723557104498">
+<node TEXT="2.9.5 Application Integrations" FOLDED="true" ID="ID_286924792" CREATED="1723557076251" MODIFIED="1723557084495">
+<node TEXT="2.9.5.1 Application Interface and Synchronic Request-Reply Design Pattern" FOLDED="true" ID="ID_1249704241" CREATED="1723557084499" MODIFIED="1723557104498">
 <node TEXT="Figure 50: Application Interface and Synchronic Request-Reply Design Pattern" ID="ID_1318222130" CREATED="1723557104505" MODIFIED="1723557137753"/>
 </node>
 <node TEXT="2.9.5.2 ETL-Process" ID="ID_171265676" CREATED="1723557139117" MODIFIED="1723557175165">
@@ -220,15 +220,15 @@
 <node TEXT="Figure 52: ETL-process, tables and assigned application" ID="ID_8928349" CREATED="1723557189696" MODIFIED="1723557202001"/>
 </node>
 </node>
-<node TEXT="2.9.6 Sequence Diuagrams" ID="ID_291323816" CREATED="1723557206047" MODIFIED="1723557213803">
-<node TEXT="2.9.6.1 Application Component Sequence Diagram View" ID="ID_430933959" CREATED="1723557213806" MODIFIED="1723557230077">
+<node TEXT="2.9.6 Sequence Diagrams" FOLDED="true" ID="ID_291323816" CREATED="1723557206047" MODIFIED="1725708262575">
+<node TEXT="2.9.6.1 Application Component Sequence Diagram View" FOLDED="true" ID="ID_430933959" CREATED="1723557213806" MODIFIED="1723557230077">
 <node TEXT="Figure 53: Application Sequence View" ID="ID_1470692309" CREATED="1723557230083" MODIFIED="1723557237730"/>
 </node>
-<node TEXT="2.9.6.2 Application Component Sequence Diagram View 2" ID="ID_740405483" CREATED="1723557239256" MODIFIED="1723557254455">
+<node TEXT="2.9.6.2 Application Component Sequence Diagram View 2" FOLDED="true" ID="ID_740405483" CREATED="1723557239256" MODIFIED="1723557254455">
 <node TEXT="Figure 54: Application Sequence View (2)" ID="ID_130700788" CREATED="1723557254459" MODIFIED="1723557271062"/>
 </node>
 </node>
-<node TEXT="2.9.7 Application Integration Patterns" ID="ID_465207808" CREATED="1723558967088" MODIFIED="1723558987853">
+<node TEXT="2.9.7 Application Integration Patterns" FOLDED="true" ID="ID_465207808" CREATED="1723558967088" MODIFIED="1723558987853">
 <node TEXT="Figure 55: Application Integration Patterns" ID="ID_1499457892" CREATED="1723558987857" MODIFIED="1723558998964"/>
 </node>
 <node TEXT="2.9.8 Use Case View" ID="ID_963826347" CREATED="1723559002860" MODIFIED="1723559010949">
