@@ -194,15 +194,18 @@
 <node TEXT="Figure 41: Application Logical Structure: sub-components and application services" ID="ID_1472254528" CREATED="1723556704101" MODIFIED="1723556723404"/>
 <node TEXT="Figure 42: Application Logical Structure: Application Functions assigned to modules of an application (A)" ID="ID_1326670790" CREATED="1723556724123" MODIFIED="1723556747585"/>
 </node>
-<node TEXT="2.9.3 Component Model (CM)" FOLDED="true" ID="ID_1237621359" CREATED="1723556758118" MODIFIED="1723556820981">
-<node TEXT="2.9.3.1 Component Model - 0 (CM-0)" FOLDED="true" ID="ID_888855253" CREATED="1723556820984" MODIFIED="1723556836222">
+<node TEXT="2.9.3 Component Model (CM)" ID="ID_1237621359" CREATED="1723556758118" MODIFIED="1723556820981">
+<node TEXT="2.9.3.1 Component Model - 0 (CM-0)" ID="ID_888855253" CREATED="1723556820984" MODIFIED="1723556836222">
 <node TEXT="Figure 43: Component Model - 0 (CM-0)" ID="ID_1249850803" CREATED="1723556836225" MODIFIED="1723556854480"/>
+<node TEXT="CM-0 Sample from Visual Paradigm Online" ID="ID_717144448" CREATED="1725768694931" MODIFIED="1725768719350" LINK="https://online.visual-paradigm.com/diagrams/templates/archimate-diagram/application-component-model-0-cm-0/"/>
 </node>
-<node TEXT="2.9.3.2 Component Model - 1 (CM-1)" FOLDED="true" ID="ID_49800310" CREATED="1723556857188" MODIFIED="1723556914812">
+<node TEXT="2.9.3.2 Component Model - 1 (CM-1)" ID="ID_49800310" CREATED="1723556857188" MODIFIED="1723556914812">
 <node TEXT="Figure 44: Component Model - 1 (CM-1)" ID="ID_779024941" CREATED="1723556867063" MODIFIED="1723556877952"/>
+<node TEXT="CM-1 Sample from Visual Paradigm Online" ID="ID_1586678152" CREATED="1725768724384" MODIFIED="1725768741270" LINK="https://online.visual-paradigm.com/diagrams/templates/archimate-diagram/application-component-model-1-cm-1/"/>
 </node>
-<node TEXT="2.9.3.3 Component Model - 2 (CM-2)" FOLDED="true" ID="ID_833323973" CREATED="1723556886831" MODIFIED="1723556923269">
+<node TEXT="2.9.3.3 Component Model - 2 (CM-2)" ID="ID_833323973" CREATED="1723556886831" MODIFIED="1723556923269">
 <node TEXT="Figure 45: Component Model - 2 (CM-2)" ID="ID_1543596257" CREATED="1723556953749" MODIFIED="1723556968149"/>
+<node TEXT="CM-2 Sample from Visual Paradigm Online" ID="ID_1530626730" CREATED="1725768746950" MODIFIED="1725768767605" LINK="https://online.visual-paradigm.com/diagrams/templates/archimate-diagram/application-component-model-2-cm-2/"/>
 </node>
 </node>
 <node TEXT="2.9.4 Database" FOLDED="true" ID="ID_1494286711" CREATED="1723556969828" MODIFIED="1723556979098">
@@ -231,7 +234,7 @@
 <node TEXT="2.9.7 Application Integration Patterns" FOLDED="true" ID="ID_465207808" CREATED="1723558967088" MODIFIED="1723558987853">
 <node TEXT="Figure 55: Application Integration Patterns" ID="ID_1499457892" CREATED="1723558987857" MODIFIED="1723558998964"/>
 </node>
-<node TEXT="2.9.8 Use Case View" ID="ID_963826347" CREATED="1723559002860" MODIFIED="1723559010949">
+<node TEXT="2.9.8 Use Case View" FOLDED="true" ID="ID_963826347" CREATED="1723559002860" MODIFIED="1723559010949">
 <node TEXT="Figure 56: Use Case View - Design Pattern" ID="ID_1638100754" CREATED="1723559010953" MODIFIED="1723559019994"/>
 <node TEXT="Figure 57: Use Case Analysis Views" ID="ID_1628367737" CREATED="1723559022617" MODIFIED="1723559158675"/>
 <node TEXT="2.9.8.1 Use Case View - Example" ID="ID_1941512957" CREATED="1723559159133" MODIFIED="1723559170593">
