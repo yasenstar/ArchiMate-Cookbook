@@ -94,5 +94,11 @@
         </child>
       </child>
     </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-9-4_Figure48_Database-as-a-Componet-of-an-Application-System" id="id-9c3152a7a3764e51a060bf2de04aa954">
+      <child xsi:type="archimate:Note" id="id-7d48487d4414490f9d96bddcf219c6ea" textAlignment="1">
+        <bounds x="52" y="29" width="483" height="26"/>
+        <feature name="labelExpression" value="$view{name}"/>
+      </child>
+    </element>
   </folder>
 </archimate:model>
