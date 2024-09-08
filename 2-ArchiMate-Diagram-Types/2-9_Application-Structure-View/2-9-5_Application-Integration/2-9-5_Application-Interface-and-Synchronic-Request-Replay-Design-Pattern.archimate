@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="2-9-5_Application-Integration_Interface-Design-Pattern" id="id-050af00da6e94235bd778090f89e01c0" version="5.0.0">
+  <folder name="Strategy" id="id-7655baa9f1b24382abce3f466fd66825" type="strategy"/>
+  <folder name="Business" id="id-1742359ffd21413eb3d12fe11a3aa75c" type="business"/>
+  <folder name="Application" id="id-95c99615fce043a7bf28816133efdc2e" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component A" id="id-37a3b0f3192f45ab85774aa2589d151e"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Application Interface A-1" id="id-8841cc06140d4df290545e86465f9205"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Application Component B" id="id-fdd29553ee7345f0b8703b16f982b108"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-1046a63a5050410e8dbf7e32a5ee0c8b" type="technology"/>
+  <folder name="Motivation" id="id-34dbb0d0e7924273a3ddf2b9929433c4" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-44ea0a2a45a04dc78ac0436fb488b61b" type="implementation_migration"/>
+  <folder name="Other" id="id-c6d3d76812cc4c5b8693616c1f1f9f37" type="other"/>
+  <folder name="Relations" id="id-8e0bb44182794b5281b3a8d93ddd3c73" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="id-cd96dc6ff3464f56b38a67936aa426e1" source="id-37a3b0f3192f45ab85774aa2589d151e" target="id-8841cc06140d4df290545e86465f9205"/>
+    <element xsi:type="archimate:FlowRelationship" name="Request" id="id-3247787a97544bbfb766686c12b723ba" source="id-fdd29553ee7345f0b8703b16f982b108" target="id-8841cc06140d4df290545e86465f9205"/>
+    <element xsi:type="archimate:FlowRelationship" name="Response" id="id-4b93b454d8574c3f88aedc6fd39c4248" source="id-8841cc06140d4df290545e86465f9205" target="id-fdd29553ee7345f0b8703b16f982b108"/>
+  </folder>
+  <folder name="Views" id="id-e646c59fc2ca41c2874ebf011eefa692" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-9-5_Figure50_Application-Integration_Interface-Design-Pattern" id="id-32b41dc6e11742b4bfa779edb7f9c632">
+      <child xsi:type="archimate:DiagramObject" id="id-6664456a54d94d5f8cf0521a99722de5" archimateElement="id-37a3b0f3192f45ab85774aa2589d151e">
+        <bounds x="108" y="84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-534d707b1e184340944dd92fb7a819ae" source="id-6664456a54d94d5f8cf0521a99722de5" target="id-5ef570708c774dd9a0e7553e2d1d0db1" archimateRelationship="id-cd96dc6ff3464f56b38a67936aa426e1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5ef570708c774dd9a0e7553e2d1d0db1" targetConnections="id-534d707b1e184340944dd92fb7a819ae id-c318199ad6b44b938bb149cc1ffcd1ca" archimateElement="id-8841cc06140d4df290545e86465f9205">
+        <bounds x="108" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5a67886cfda243d995a824c11b4a5e56" source="id-5ef570708c774dd9a0e7553e2d1d0db1" target="id-29432c424a784770a20890eefdfe94cd" archimateRelationship="id-4b93b454d8574c3f88aedc6fd39c4248">
+          <bendpoint startX="396" startY="-9" endX="-396" endY="-9"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-29432c424a784770a20890eefdfe94cd" targetConnections="id-5a67886cfda243d995a824c11b4a5e56" archimateElement="id-fdd29553ee7345f0b8703b16f982b108">
+        <bounds x="564" y="204" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-c318199ad6b44b938bb149cc1ffcd1ca" source="id-29432c424a784770a20890eefdfe94cd" target="id-5ef570708c774dd9a0e7553e2d1d0db1" archimateRelationship="id-3247787a97544bbfb766686c12b723ba">
+          <bendpoint startX="396" startY="8" endX="-396" endY="8"/>
+        </sourceConnection>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
