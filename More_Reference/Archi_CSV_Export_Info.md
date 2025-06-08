@@ -56,7 +56,7 @@ When exporting to CSV, there're 3 files created in the designated folder, as bel
 
 | Type | Name |
 | --- | --- |
-| ApplicationComponet | Application Component |
+| ApplicationComponent | Application Component |
 | ApplicationCollaboration | Application Collaboration |
 | ApplicationInterface | Application Interface |
 | ApplicationFunction | Application Function |
