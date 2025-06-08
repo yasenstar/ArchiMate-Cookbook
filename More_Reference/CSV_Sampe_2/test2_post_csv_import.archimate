@@ -34,6 +34,12 @@
     <element xsi:type="archimate:BusinessProcess" name="BP3" id="Busi_Proc0003"/>
     <element xsi:type="archimate:BusinessProcess" name="BP4" id="Busi_Proc0004"/>
     <element xsi:type="archimate:BusinessProcess" name="BP5" id="Busi_Proc0005"/>
+    <element xsi:type="archimate:BusinessActor" name="Customer" id="Busi_Act0006"/>
+    <element xsi:type="archimate:BusinessService" name="Online Loan" id="Busi_Serv0001"/>
+    <element xsi:type="archimate:BusinessProcess" name="Online Loan Negotiation" id="Busi_Proc0006"/>
+    <element xsi:type="archimate:BusinessProcess" name="Schedule Appointement" id="Busi_Proc0007"/>
+    <element xsi:type="archimate:BusinessProcess" name="Send Application" id="Busi_Proc0008"/>
+    <element xsi:type="archimate:BusinessProcess" name="Contact" id="Busi_Proc0009"/>
   </folder>
   <folder name="Application" id="id-a4275eae98b94d76acb1c052d1a716f2" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-beb455831b2340eba44bba70e69b5cee"/>
@@ -50,6 +56,11 @@
     <element xsi:type="archimate:ApplicationComponent" name="AC3" id="App_Comp0003"/>
     <element xsi:type="archimate:ApplicationComponent" name="AC4" id="App_Comp0004"/>
     <element xsi:type="archimate:ApplicationComponent" name="AC5" id="App_Comp0005"/>
+    <element xsi:type="archimate:ApplicationService" name="Registration" id="App_Serv0001"/>
+    <element xsi:type="archimate:ApplicationService" name="Receive Application" id="App_Serv0002"/>
+    <element xsi:type="archimate:ApplicationService" name="Online Meeting" id="App_Serv0003"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Web Portal" id="App_Comp0006"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Meeting App" id="App_Comp0007"/>
   </folder>
   <folder name="Technology &amp; Physical" id="id-00ff54d1d21846e6b5fee630c3033cd4" type="technology">
     <element xsi:type="archimate:Node" name="Node" id="id-d80543e9f7d9433abd25b1be7baab690"/>
@@ -112,6 +123,17 @@
     <element xsi:type="archimate:ServingRelationship" name="To Serve" id="My_Serving_Rel0001" source="App_Comp0002" target="Busi_Proc0005">
       <property key="Priority" value="High"/>
     </element>
+    <element xsi:type="archimate:ServingRelationship" id="My_Serving_Rel0002" source="Busi_Serv0001" target="Busi_Act0006"/>
+    <element xsi:type="archimate:RealizationRelationship" id="My_Serving_Rel0003" source="Busi_Proc0006" target="Busi_Serv0001"/>
+    <element xsi:type="archimate:CompositionRelationship" id="My_Serving_Rel0004" source="Busi_Proc0006" target="Busi_Proc0007"/>
+    <element xsi:type="archimate:CompositionRelationship" id="My_Serving_Rel0005" source="Busi_Proc0006" target="Busi_Proc0008"/>
+    <element xsi:type="archimate:CompositionRelationship" id="My_Serving_Rel0006" source="Busi_Proc0006" target="Busi_Proc0009"/>
+    <element xsi:type="archimate:ServingRelationship" id="My_Serving_Rel0007" source="App_Serv0001" target="Busi_Proc0007"/>
+    <element xsi:type="archimate:ServingRelationship" id="My_Serving_Rel0008" source="App_Serv0002" target="Busi_Proc0008"/>
+    <element xsi:type="archimate:ServingRelationship" id="My_Serving_Rel0009" source="App_Serv0003" target="Busi_Proc0009"/>
+    <element xsi:type="archimate:RealizationRelationship" id="My_Serving_Rel0010" source="App_Comp0006" target="App_Serv0001"/>
+    <element xsi:type="archimate:RealizationRelationship" id="My_Serving_Rel0011" source="App_Comp0006" target="App_Serv0002"/>
+    <element xsi:type="archimate:RealizationRelationship" id="My_Serving_Rel0012" source="App_Comp0007" target="App_Serv0003"/>
   </folder>
   <folder name="Views" id="id-2af758190f1c47cc865cdd35db78e3e4" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-c35fb1afc79140649bbbfe0056527020">
@@ -330,6 +352,52 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-9c2580c826174facbb53a2f004d34d9e" targetConnections="id-5fae6fcf26754ecf8d5b302f6fddbd6f" archimateElement="Busi_Proc0005">
         <bounds x="539" y="274" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="2-9-8-1" id="id-96cb00c3f8ad4c09b5fbcd9e0f6fdd42">
+      <child xsi:type="archimate:DiagramObject" id="id-dbe5f09a42284e03a35ccaa75fad4c39" targetConnections="id-2193362d8adc4f228ab5f24303582b22" archimateElement="Busi_Act0006">
+        <bounds x="183" y="54" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-775713e5cd0c4adaab5231a8e852cb48" targetConnections="id-1d557fc92ec8440fb79fa71d0d3acbe4" archimateElement="Busi_Serv0001">
+        <bounds x="186" y="155" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2193362d8adc4f228ab5f24303582b22" source="id-775713e5cd0c4adaab5231a8e852cb48" target="id-dbe5f09a42284e03a35ccaa75fad4c39" archimateRelationship="My_Serving_Rel0002"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-29bce933b0e14bfe9e1c44e11a39964c" archimateElement="Busi_Proc0006">
+        <bounds x="82" y="240" width="411" height="109"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-1d557fc92ec8440fb79fa71d0d3acbe4" source="id-29bce933b0e14bfe9e1c44e11a39964c" target="id-775713e5cd0c4adaab5231a8e852cb48" archimateRelationship="My_Serving_Rel0003"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-94fb7700418046e99b9c9c22d6252a50" source="id-29bce933b0e14bfe9e1c44e11a39964c" target="id-61a587d63cdd4a8380351fb203b0e524" archimateRelationship="My_Serving_Rel0004"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-e1caa5282e8f493f94351eeca6819eeb" source="id-29bce933b0e14bfe9e1c44e11a39964c" target="id-f150815b0226414d9dc6430f203498ea" archimateRelationship="My_Serving_Rel0005"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-527ef0a257e04adeaab4c53c5fece6ee" source="id-29bce933b0e14bfe9e1c44e11a39964c" target="id-5a07cf3d20c74a96a23dfe69d2289e9d" archimateRelationship="My_Serving_Rel0006"/>
+        <child xsi:type="archimate:DiagramObject" id="id-f150815b0226414d9dc6430f203498ea" targetConnections="id-e1caa5282e8f493f94351eeca6819eeb id-d8f93cee8cef42e6ba928ebaa5dcef20" archimateElement="Busi_Proc0008">
+          <bounds x="144" y="35" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5a07cf3d20c74a96a23dfe69d2289e9d" targetConnections="id-527ef0a257e04adeaab4c53c5fece6ee id-6bad203673084be080214b8ad239d58e" archimateElement="Busi_Proc0009">
+          <bounds x="277" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-61a587d63cdd4a8380351fb203b0e524" targetConnections="id-94fb7700418046e99b9c9c22d6252a50 id-b347b21913c349109e1a4a2e7ea89ec3" archimateElement="Busi_Proc0007">
+          <bounds x="12" y="36" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-cf533a9c82f34d97a0b93ff5e74621ed" targetConnections="id-b177d6f462114ad2960daf8ba3f28177" archimateElement="App_Serv0003">
+        <bounds x="360" y="384" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-6bad203673084be080214b8ad239d58e" source="id-cf533a9c82f34d97a0b93ff5e74621ed" target="id-5a07cf3d20c74a96a23dfe69d2289e9d" archimateRelationship="My_Serving_Rel0009"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-bfa34871da8a46b7877d1565c0b1161b" targetConnections="id-f307501ce5404ef7a2dd7c776ac3bab1" archimateElement="App_Serv0002">
+        <bounds x="228" y="384" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-d8f93cee8cef42e6ba928ebaa5dcef20" source="id-bfa34871da8a46b7877d1565c0b1161b" target="id-f150815b0226414d9dc6430f203498ea" archimateRelationship="My_Serving_Rel0008"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-463282d71a044aee9eb451a48c967b66" targetConnections="id-611d5f178a104955911eaa7a7407e687" archimateElement="App_Serv0001">
+        <bounds x="96" y="384" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b347b21913c349109e1a4a2e7ea89ec3" source="id-463282d71a044aee9eb451a48c967b66" target="id-61a587d63cdd4a8380351fb203b0e524" archimateRelationship="My_Serving_Rel0007"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-9fde1bf8589d4459bdaaafe33ff651af" archimateElement="App_Comp0006">
+        <bounds x="168" y="504" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-611d5f178a104955911eaa7a7407e687" source="id-9fde1bf8589d4459bdaaafe33ff651af" target="id-463282d71a044aee9eb451a48c967b66" archimateRelationship="My_Serving_Rel0010"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f307501ce5404ef7a2dd7c776ac3bab1" source="id-9fde1bf8589d4459bdaaafe33ff651af" target="id-bfa34871da8a46b7877d1565c0b1161b" archimateRelationship="My_Serving_Rel0011"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-092ac03ce24f46b086f54b59e9b6a60e" archimateElement="App_Comp0007">
+        <bounds x="360" y="504" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b177d6f462114ad2960daf8ba3f28177" source="id-092ac03ce24f46b086f54b59e9b6a60e" target="id-cf533a9c82f34d97a0b93ff5e74621ed" archimateRelationship="My_Serving_Rel0012"/>
       </child>
     </element>
   </folder>
