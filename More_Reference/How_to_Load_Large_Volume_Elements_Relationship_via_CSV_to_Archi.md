@@ -56,3 +56,7 @@ There're several rounds discussions and finally below are the summarized steps b
     in the Target column enter from do-0001 to do-1000.
 
 10. Finally, In Archi - File - Import _ CSV Data Into_Selected Model, and select the elements.csv to load all the 10 data groups, 1000 data objects and the relationships
+
+---
+
+Full discussion can be found [here](https://github.com/yasenstar/ArchiMate-Cookbook/discussions/2).
