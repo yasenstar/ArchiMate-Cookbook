@@ -139,3 +139,17 @@ By default, there's no name assigned to the relations you connect between two el
 | FlowRelationship |
 | SpecializationRelationship|
 | AssociationRelationship |
+
+## Default Rows in `Properties.csv`
+
+When adding `Junction`, `AccessRelationship` and `AssociationRelationship`, there're default properties added into the `properties.csv` file.
+
+| ID | Key | Value |
+| --- | --- | --- |
+| Junction Element ID in `elements.csv` | Junction_Type | And |
+| AccessRelationship ID in `relations.csv` | Access_Type | Write |
+| AssociationRelationship ID in `relations.csv` | Directed | FALSE |
+
+## Archi Exported CSV Files Data Model
+
+![CSV Files Data Model](./img/Archi_CSV_Export-2025-06-08T11_26_15.png)
