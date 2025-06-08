@@ -120,7 +120,7 @@ When exporting to CSV, there're 3 files created in the designated folder, as bel
 > Although `Junction` icon is placed in the relationship group in Archi's Palette, it is actually treated as one element from ArchiMate and put into the `elements.csv` file.
 
 > [!NOTE]
-> The `Note`, `Group` and `Connection - Connect to Note` are not ArchiMate model recognized elements, so they're not exported into the CSV `elements.csv" file
+> The `Note`, `Group` and `Connection - Connect to Note` are not ArchiMate model recognized elements, so they're not exported into the CSV `elements.csv` file
 
 ## Type of Relations in `relations.csv`
 
@@ -128,7 +128,7 @@ By default, there's no name assigned to the relations you connect between two el
 
 | Type |
 | --- |
-| ConpositionRelationship |
+| CompositionRelationship |
 | AggregationRelationship |
 | AssignmentRelationship |
 | RealizationRelationship |
