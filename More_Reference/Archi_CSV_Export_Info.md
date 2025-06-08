@@ -153,3 +153,11 @@ When adding `Junction`, `AccessRelationship` and `AssociationRelationship`, ther
 ## Archi Exported CSV Files Data Model
 
 ![CSV Files Data Model](./img/Archi_CSV_Export-2025-06-08T11_26_15.png)
+
+## Rules when Importing CSV data into a model (from User Guide)
+
+- If an imported concept or property does not exist in the target model it is created and added to the model. 
+- If an imported concept or property exists in the target model (identified by the ID field) its fields are updated with any new values in the CSV file, or ignored if all the fields are the same. 
+- If a concept or property is not present in the CSV file (or has been deleted from an exported CSV file), then that concept or property is not updated or deleted in the target model. This ensures that you can update or add a sub-set of objects. Concepts and properties are added or updated, never deleted. 
+- If you change either of the "Source" or "Target" identifiers for a relationship in the "relations" CSV file to another existing concept's identifier these are updated in the target model. 
+- You cannot change the concept "Type" field in an existing CSV file or use invalid concept types. 
